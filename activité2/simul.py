@@ -1,6 +1,7 @@
-from fonctions import allumer_piece, eteindre_piece
+from fonctions import *
 from dispositifs import maison
-from activite_2 import sauvegarder_etat_csv, sauvegarder_etat_pickle
+from activite_2 import *
+from etat_lum_piece1 import *
 import time
 
 def simulation():
