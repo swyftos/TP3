@@ -1,0 +1,9 @@
+rom dispositifs import *
+def allumer_tout(...):#allumer tous les dispositifs
+...
+def eteindre_tout(...):#éteindre tous les dispositifs
+...
+def allumer_groupe(...):#allumer un groupe
+...
+def eteindre_groupe(...):#éteindre un groupe
+..
