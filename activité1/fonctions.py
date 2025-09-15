@@ -1,9 +1,17 @@
-rom dispositifs import *
-def allumer_tout(...):#allumer tous les dispositifs
-...
-def eteindre_tout(...):#éteindre tous les dispositifs
-...
-def allumer_groupe(...):#allumer un groupe
-...
-def eteindre_groupe(...):#éteindre un groupe
-..
+from dispositifs import *
+
+def allumer_tout():
+    for dispositif in leds + suspension + rubans:
+        dispositif.on()
+
+def eteindre_tout():
+    for dispositif in leds + suspension + rubans:
+        dispositif.off()
+
+def allumer_groupe(groupe):
+    for dispositif in groupe:
+        dispositif.on()
+
+def eteindre_groupe(groupe):
+    for dispositif in groupe:
+        dispositif.off()
