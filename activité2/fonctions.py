@@ -27,3 +27,4 @@ def eteindre_groupe(groupe):
 #etat_maison()
 #eteindre_piece("Séjour")
 #allumer_maison()
+
